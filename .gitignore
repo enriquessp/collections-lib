@@ -1,0 +1,28 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+coverage/
+
+# Test binary, built with `go test -c`
+*.test
+
+bin
+out
+generated
+.go
+.push-*
+.container-*
+.dockerfile-*
+
+internal/core/booking/repositories/test.db
+
+codeStyles*
+misc.xml
+modules.xml
+token-lib.iml
+vcs.xml
+.idea
